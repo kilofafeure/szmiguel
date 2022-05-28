@@ -47,7 +47,7 @@ Disponemos de un header desde el cual podemos añadir tarjetas (+) y ordenar las
 
 Una vez clicado el icono + se abrirá un modal en el que deberemos ingresar los datos solicitados. El título y la descripción son obligatorios, la imagen (que debe ser una URL) no. En caso de uno informar una URL o una incorrecta (se informará en el modal) si se guarda la tarjeta se guardará la imagen por defecto de la aplicación
 
-# Imágenes para pruebas ya subidas a internet
+### Imágenes para pruebas ya subidas a internet
 
 https://www.linkpicture.com/q/img001_1.jpg
 https://www.linkpicture.com/q/img002.bmp
