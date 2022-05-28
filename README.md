@@ -33,11 +33,11 @@ Instead, it will copy all the configuration files and the transitive dependencie
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
 
-#### Descripción aplicación
+# Descripción aplicación
 
 Aplicación react/typescript que nos permite añadir, editar o eliminar “tarjetas” con una información muy básica (título,  descripción e imagen).
 
-### Funcionamiento
+## Funcionamiento
 
 ## Header
 
@@ -57,11 +57,11 @@ https://www.linkpicture.com/q/pokeball.jpg
 https://www.linkpicture.com/q/pokes.jpg
 https://www.linkpicture.com/q/pokes002.jpg
 
-# Edición / Eliminación de tarjetas
+## Edición / Eliminación de tarjetas
 
 Una vez insertada una tarjeta la podremos editar/eliminar pasando el ratón por encima y clicando el icono correspondiente.
 En caso de ser una edición se abrirá el modal de creación con los datos de la tarjeta ya informados.
 
-## Licencia
+### Licencia
 
 MIT
