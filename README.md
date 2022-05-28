@@ -14,11 +14,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
 ### `npm run build`
 
 Builds the app for production to the `build` folder.\
@@ -39,8 +34,36 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+#### Descripción aplicación
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Aplicación react/typescript que nos permite añadir, editar o eliminar “tarjetas” con una información muy básica (título,  descripción e imagen).
+
+### Funcionamiento
+
+## Header
+
+Disponemos de un header desde el cual podemos añadir tarjetas (+) y ordenar las ya guardadas.
+
+## Creación de tarjetas
+
+Una vez clicado el icono + se abrirá un modal en el que deberemos ingresar los datos solicitados. El título y la descripción son obligatorios, la imagen (que debe ser una URL) no. En caso de uno informar una URL o una incorrecta (se informará en el modal) si se guarda la tarjeta se guardará la imagen por defecto de la aplicación
+
+# Imágenes para pruebas ya subidas a internet
+
+https://www.linkpicture.com/q/img001_1.jpg
+https://www.linkpicture.com/q/img002.bmp
+https://www.linkpicture.com/q/poke001.jpg
+https://www.linkpicture.com/q/poke002.jpg
+https://www.linkpicture.com/q/pokeball.jpg
+https://www.linkpicture.com/q/pokes.jpg
+https://www.linkpicture.com/q/pokes002.jpg
+
+# Edición / Eliminación de tarjetas
+
+Una vez insertada una tarjeta la podremos editar/eliminar pasando el ratón por encima y clicando el icono correspondiente.
+En caso de ser una edición se abrirá el modal de creación con los datos de la tarjeta ya informados.
+
+## Licencia
+
+MIT
